@@ -1,0 +1,16 @@
+# Local SSH Keys and Private Credentials
+*.pem
+*.key
+*.pub
+# Terraform State and Cache files
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+*.tfvars
+*.tfvars.json
+override.tf
+override.tf.json
+# MacOS and Windows system files
+.DS_Store
+Thumbs.db
