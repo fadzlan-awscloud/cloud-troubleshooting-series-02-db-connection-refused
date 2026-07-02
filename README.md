@@ -176,7 +176,6 @@ The web application was reachable, however all database transactions failed.
 
 This confirmed that the issue existed between the Application Tier and Database Tier rather than at the Load Balancer.
 
-![Database connection failure](screenshots/ubuntu-ip-port-timedout.png)
 ![Database connection failure](CTS-02-Database-Connection-Refused/screenshots/ubuntu-ip-port-timedout.png)
 ---
 
@@ -197,7 +196,7 @@ Connection refused
 ```
 
 This confirms the database service is not accepting incoming connections.
-
+![Database connection failure](CTS-02-Database-Connection-Refused/screenshots/ping-ip-packet-loss.png)
 ---
 
 # Phase 3 — Infrastructure Investigation
